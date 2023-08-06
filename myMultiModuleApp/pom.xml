@@ -4,20 +4,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>pl.infoshare</groupId>
-  <artifactId>my-app</artifactId>
+  <groupId>pl.infoshare.maven</groupId>
+  <artifactId>myMultiModuleApp</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-
-  <name>my-app</name>
+  <name>myMultiModuleApp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -27,18 +26,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-
-    <dependency>
-      <groupId>commons-lang</groupId>
-      <artifactId>commons-lang</artifactId>
-      <version>2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.plexus</groupId>
-      <artifactId>plexus-utils</artifactId>
-      <version>1.1</version>
-    </dependency>
-
   </dependencies>
 
   <build>
